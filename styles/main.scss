@@ -1,0 +1,53 @@
+h1{
+    padding:40px;
+    text-align: center;
+    color: rgb(243, 207, 161);
+}
+.card {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 13px;
+  &:hover{
+    border:skyblue;
+  }
+}
+.menyu{
+    background-color:rgba(217, 27, 217, 0.787);
+   
+   
+   
+    a{
+        text-decoration: none;
+        padding:0px;
+        color: white;
+        &:hover{
+           text-decoration: underline;
+            color:blue;
+ }
+     
+       
+    }
+    li{
+        list-style: none;
+       
+    }
+    ul{
+        display: flex;
+        gap:30px;
+        padding:30px;
+        margin: 0px auto;
+        margin-left: 270px;
+    }
+}
+
+.dropdown {
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width:600px){
+    .menyu {
+        visibility: hidden;
+}
+
+}
